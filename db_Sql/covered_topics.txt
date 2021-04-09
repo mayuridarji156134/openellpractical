@@ -1,0 +1,25 @@
+- I have mainly focused in completing functionality instead of designs and validations and tried to cover main flow of registraion & client and designer's module
+- For now i have added password john123 while registreing new user
+
+- Created Migrations
+- Facebook Login/Registration - Done
+- Google Login/Registration - Doen
+
+- After registration using Facebook user wil be redirected to completed signup flow with required fields and submit form
+- I have created listener to listen event of user registration and fire mail
+- After registration/Login According to Client/Designer roles, it will be redirected to related modules url
+- For client role:
+   - Can Add project
+   - Assign project
+   - Can mark project as Completed
+   - Can view history 
+   - Can view replies and files submitted by designer
+   - Can add further Notes & upload multiple files,if necessary and submit back to designer
+
+- For Designer Roles:
+	- Can view list of projects
+	- Can see history of each projects
+	- Can add comments and upload multiple files and submit back to client
+	
+
+- I also attached SQL file for DB
